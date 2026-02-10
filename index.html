@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pujan | Full Stack Developer & UI/UX Designer</title>
+    <meta name="description"
+        content="Portfolio of Pujan - Building premium digital experiences with modern technologies. Specialized in Full Stack Development and AI solutions.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Background Elements -->
+    <div class="glow-bg">
+        <div class="glow-circle circle-1"></div>
+        <div class="glow-circle circle-2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header id="navbar">
+        <nav class="container">
+            <div class="logo">
+                <a href="#home">Pujan<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h4 class="animate__animated animate__fadeInDown">Welcome to my universe</h4>
+                    <h1 class="animate__animated animate__fadeInUp">Hi, I'm <span class="gradient-text">Pujan</span>
+                    </h1>
+                    <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Crafting <span
+                            id="typewriter"></span></h2>
+                    <p class="animate__animated animate__fadeInUp animate__delay-2s">
+                        I am a full-stack developer based in Nepal, dedicated to building high-performance
+                        web applications and intelligent AI systems that push the boundaries of technology.
+                    </p>
+                    <div class="hero-btns animate__animated animate__fadeInUp animate__delay-2s">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Hire Me</a>
+                    </div>
+                    <div class="social-links animate__animated animate__fadeInUp animate__delay-3s">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <!-- Stats Counter Added Here -->
+                    <div class="stats-container animate__animated animate__fadeInUp animate__delay-3s">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Years Exp.</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="20">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Success %</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image animate__animated animate__zoomIn animate__delay-1s">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
+                            alt="Pujan Portrait">
+                        <div class="floating-card experience-card">
+                            <span class="card-icon"><i class="fas fa-briefcase"></i></span>
+                            <div class="card-info">
+                                <h3>2+ Years</h3>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                        <div class="floating-card project-card">
+                            <span class="card-icon"><i class="fas fa-check-circle"></i></span>
+                            <div class="card-info">
+                                <h3>20+ Done</h3>
+                                <p>Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">My Story</span>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-info" data-reveal="left">
+                        <h3>Turning Vision into <span class="accent-text">Reality</span></h3>
+                        <p>
+                            I am a passionate software engineer with a focus on building scalable web solutions and
+                            exploring the depths of Artificial Intelligence. Currently pursuing my journey in the tech
+                            world of Nepal, I strive to create meaningful impact through clean code and innovative
+                            design.
+                        </p>
+                        <div class="personal-details">
+                            <div class="detail-item">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <span>Name</span>
+                                    <p>Pujan</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <p>hello@pujan.com.np</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <span>Location</span>
+                                    <p>Kathmandu, Nepal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+                    </div>
+                    <div class="skills-content" data-reveal="right">
+                        <h3>My Technical <span class="accent-text">Arsenal</span></h3>
+                        <div class="skills-grid">
+                            <div class="skill-tag">React.js</div>
+                            <div class="skill-tag">Next.js</div>
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">Machine Learning</div>
+                            <div class="skill-tag">PostgreSQL</div>
+                            <div class="skill-tag">FastAPI</div>
+                            <div class="skill-tag">Docker</div>
+                            <div class="skill-tag">Tailwind CSS</div>
+                            <div class="skill-tag">TypeScript</div>
+                        </div>
+                        <div class="experience-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Full Stack Developer</h4>
+                                    <span>2023 - Present</span>
+                                    <p>Developing premium web applications and AI integrated systems.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>UI/UX Specialist</h4>
+                                    <span>2022 - 2023</span>
+                                    <p>Crafting intuitive and aesthetically pleasing user interfaces.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section light-bg">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">What I Do</span>
+                    <h2>My Specializations</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-reveal="bottom">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Building lighting-fast, responsive web applications using the latest modern frameworks.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-chevron-right"></i> Frontend Architect</li>
+                            <li><i class="fas fa-chevron-right"></i> Backend Engineering</li>
+                            <li><i class="fas fa-chevron-right"></i> API Integration</li>
+                        </ul>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="0.2">
+                        <div class="service-icon"><i class="fas fa-brain"></i></div>
+                        <h3>AI & ML Solutions</h3>
+                        <p>Implementing intelligent systems that automate complex tasks and provide valuable insights.
+                        </p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-chevron-right"></i> NLP Models</li>
+                            <li><i class="fas fa-chevron-right"></i> Predictive Analytics</li>
+                            <li><i class="fas fa-chevron-right"></i> Computer Vision</li>
+                        </ul>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="0.4">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing interfaces that are not only beautiful but also highly functional and user-centric.
+                        </p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-chevron-right"></i> Visual Identity</li>
+                            <li><i class="fas fa-chevron-right"></i> Interactive Prototypes</li>
+                            <li><i class="fas fa-chevron-right"></i> User Experience Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="subtitle">Recent Work</span>
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-item web" data-reveal="zoom">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800"
+                                alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Modern SaaS Platform</h4>
+                                    <p>Next.js, Node.js, Stripe</p>
+                                    <div class="project-links">
+                                        <a href="#"><i class="fas fa-link"></i></a>
+                                        <a href="#"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item ai" data-reveal="zoom">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800"
+                                alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Nepali Speech recognition</h4>
+                                    <p>Python, PyTorch, Whisper</p>
+                                    <div class="project-links">
+                                        <a href="#"><i class="fas fa-link"></i></a>
+                                        <a href="#"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item design" data-reveal="zoom">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=800"
+                                alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>E-commerce Dashboard</h4>
+                                    <p>Figma, UI Design</p>
+                                    <div class="project-links">
+                                        <a href="#"><i class="fas fa-link"></i></a>
+                                        <a href="#"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <h2>Let's build something <span class="gradient-text">exceptional</span> together.</h2>
+                        <p>I'm currently available for freelance work and full-time opportunities. Reach out if you have
+                            a project or just want to chat.</p>
+                        <div class="contact-methods">
+                            <a href="mailto:hello@pujan.com.np" class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@pujan.com.np</span>
+                            </a>
+                            <a href="tel:+9779800000000" class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <span>+977 980 0000000</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message <i
+                                class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Pujan<span>.</span></div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pujan Dhakal. Built with <i class="fas fa-heart" style="color: #ff4d4d;"></i> in Nepal.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
